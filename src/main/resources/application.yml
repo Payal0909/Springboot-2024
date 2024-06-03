@@ -1,0 +1,21 @@
+spring:
+  application:
+   name: MovieApi
+
+
+#To install the mysql in dbeaver :
+#  1.) Mysql installer download
+#  2.) set new connection in dbeaver
+#  3.) Allow public key retrieval :true
+  datasource:
+       username: payal
+       password: payal
+       url: jdbc:mysql://localhost:3306/MovieAPI
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
