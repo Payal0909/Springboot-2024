@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MovieApiApplication {
 
 	public static void main(String[] args) {
-		System.out.println("APPLICATION STARTED");
+		System.out.println("MOVIE APPLICATION STARTED");
 		SpringApplication.run(MovieApiApplication.class, args);
 	}
 
